@@ -16,30 +16,26 @@ _Este repositorio nos ayudará a introducir el concepto de Mobile testing_
 </header>
 
 <!--
-  <<< Author notes: Course start >>>
-  Include start button, a note about Actions minutes,
-  and tell the learner why they should take the course.
+  <<< Author notes: Step 1 >>>
+  Choose 3-5 steps for your course.
+  The first step is always the hardest, so pick something easy!
+  Link to docs.github.com for further explanations.
+  Encourage users to open new tabs for steps!
+  TBD-step-1-notes.
 -->
 
-### Cómo iniciar esta actividad
+## Paso 1: Setup del proyecto
 
-<!-- For start course, run in JavaScript:
-'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'kevinah95',
-  template_name: 'delete-template',
-  owner: '@me',
-  name: 'BISOFT-38-proyecto-04-actividad-02',
-  description: 'Actividad para Mobile Testing',
-  visibility: 'public',
-}).toString()
--->
+_Este es el setup del proyecto en Android Studio_
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=kevinah95&template_name=bisoft-38-actividad-testing&owner=%40me&name=BISOFT-38-proyecto-04-actividad-02&description=Actividad+para+Mobile+Testing&visibility=public)
+### :keyboard: Actividad: Paso 01
 
-1. Haz clic derecho en **Start course** y abre el enlace en una nueva pestaña.
-2. En la nueva pestaña, la mayoría de los campos se completarán automáticamente.
-  - Para el propietario, elige tu cuenta personal o una organización para alojar el repositorio.
-  - Recomendamos crear un repositorio público, ya que los repositorios privados [utilizarán minutos de Actions](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-  - Desplázate hacia abajo y haz clic en el botón **Crear repositorio** en la parte inferior del formulario.
-3. Después de que se cree tu nuevo repositorio, espera unos 20 segundos y luego actualiza la página. Sigue las instrucciones paso a paso en el README del nuevo repositorio.
+1. Clona el repositorio en tu máquina local y sigue las instrucciones desde la pestaña del navegador o el archivo README.
+1. Abre el [asistente de Kotlin Multiplatform](https://kmp.jetbrains.com).
+1. En la pestaña **Nuevo proyecto**, asegúrate de que las opciones **Android** e **iOS** estén seleccionadas.
+1. Para iOS, elige la opción **compartir UI**.
+1. Haz clic en el botón **Descargar** y descomprime el archivo resultante en el repositorio clonado localmente.
+1. Sube los cambios haciendo un commit de los archivos y push a la rama main.
+1. Espera unos 20 segundos y luego actualiza esta página (la que estás siguiendo las instrucciones). [GitHub Actions](https://docs.github.com/en/actions) se actualizará automáticamente al siguiente paso.
+
 
