@@ -16,26 +16,30 @@ _Este repositorio nos ayudará a introducir el concepto de Mobile testing_
 </header>
 
 <!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
-  TBD-step-1-notes.
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+  TBD-step-2-notes.
 -->
 
-## Paso 1: Setup del proyecto
+## Paso 2: Agregar el código funcional
 
-_Este es el setup del proyecto en Android Studio_
+_Con el proyecto creado, ahora vamos a agregar código funcional_
 
-### :keyboard: Actividad: Paso 01
+### :keyboard: Actividad: Paso 02
 
-1. Clona el repositorio en tu máquina local y sigue las instrucciones desde la pestaña del navegador o el archivo README.
-1. Abre el [asistente de Kotlin Multiplatform](https://kmp.jetbrains.com).
-1. En la pestaña **Nuevo proyecto**, asegúrate de que las opciones **Android** e **iOS** estén seleccionadas.
-1. Para iOS, elige la opción **compartir UI**.
-1. Haz clic en el botón **Descargar** y descomprime el archivo resultante en el repositorio clonado localmente.
+1. Inicia Android Studio.
+1. En el directorio `commonMain/kotlin`, crea un nuevo directorio `common.example.search`.
+1. En este directorio, crea un archivo Kotlin, `Grep.kt`, y agrega la siguiente función:
+    ```kotlin
+    fun grep(lines: List<String>, pattern: String, action: (String) -> Unit) {
+      val regex = pattern.toRegex()
+      lines.filter(regex::containsMatchIn)
+        .forEach(action)
+    }
+    ```
+    Esta función está diseñada para parecerse al [comando grep de UNIX](https://es.wikipedia.org/wiki/Grep). Aquí, la función toma líneas de texto, un patrón utilizado como una expresión regular y una función que se invoca cada vez que una línea coincide con el patrón.
 1. Sube los cambios haciendo un commit de los archivos y push a la rama main.
-1. Espera unos 20 segundos y luego actualiza esta página (la que estás siguiendo las instrucciones). [GitHub Actions](https://docs.github.com/en/actions) se actualizará automáticamente al siguiente paso.
+1. Espera unos 20 segundos y luego actualiza esta página (la que estás siguiendo las instrucciones). [GitHub Actions](https://docs.github.com/es/actions) se actualizará automáticamente al siguiente paso.
 
 
