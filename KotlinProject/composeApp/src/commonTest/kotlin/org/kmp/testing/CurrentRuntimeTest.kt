@@ -1,7 +1,7 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class CurrentRuntimeTest {
+tclass CurrentRuntimeTest {
     @Test
     fun shouldDisplayDetails() {
         val runtime = CurrentRuntime("MyRuntime", "1.1")
