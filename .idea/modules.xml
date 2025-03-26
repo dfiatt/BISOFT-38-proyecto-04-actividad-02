@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BISOFT-38-proyecto-04-actividad-02.iml" filepath="$PROJECT_DIR$/.idea/BISOFT-38-proyecto-04-actividad-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/composeApp/KotlinProject.composeApp.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/composeApp/KotlinProject.composeApp.commonTest.iml" />
     </modules>
   </component>
 </project>
