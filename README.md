@@ -16,21 +16,14 @@ _Este repositorio nos ayudará a introducir el concepto de Mobile testing_
 </header>
 
 <!--
-  <<< Author notes: Step 5 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  TBD-step-5-notes.
+  <<< Author notes: Finish >>>
+  Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Paso 05: Excelente trabajo
+## Finalizar
 
-_Excelente trabajo para finalizar vamos a reflexionar sobre lo aprendido_
+_Felicidades, ¡has completado esta actividad!_
 
-1. Escribe un archivo .txt sobre:
-    - ¿Qué aprendí?
-    - ¿Qué valor tienen las pruebas en el ámbito profesional?
-
-1. Sube los cambios haciendo un commit de los archivos y push a la rama main.
-1. Espera unos 20 segundos y luego actualiza esta página (la que estás siguiendo las instrucciones). [GitHub Actions](https://docs.github.com/en/actions) se actualizará automáticamente al siguiente paso.
+![Happy Dance](https://media.tenor.com/c5aQbgiFfz4AAAAM/friday-happydance.gif)
 
 
